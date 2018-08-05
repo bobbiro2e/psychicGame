@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Letter Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+
+    <body>
+        <div id="game">
+            <div id="header">
+                <h1>Letter Guessing Game</h1>
+                <ol>Directions
+                    <li>Make a guess by typing a letter on your keyboard.</li>
+                    <li>If the letter you guessed matches My Letter, You Win!</li>
+                    <li>If after 9 guesses your letter doesn't match, you suck at life.</li>
+                </ol>
+                <p id="message"></p>
+            </div>
+
+            <div id="game">
+                <ul class="ul">
+                    <li class="li">
+                        <p id="lives">Lives : 9</p>
+                    </li>
+                    <li class="li">
+                        <p id="guesses"></p>
+                    </li>
+                    <li class="li">
+                        <p id="wins"></p>
+                    </li>
+                    <li class="li">
+                        <p id="losses"></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="assets/javascript/game.js"></script>
+    </body>
+
+</html>
