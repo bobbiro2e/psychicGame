@@ -1,0 +1,54 @@
+body {
+    background-color: #0D2037;
+    font-family: 'Montserrat', sans-serif;
+    color: #EAECEE;
+}
+#header {
+    text-align:center;
+    font-weight: bold;
+    background-color: #447DA5;
+    color:#EAECEE;
+    padding:20px;
+    margin-bottom:50px;
+    margin-top:50px;
+}
+
+.card{
+    background-color: #7F8991;
+    width:45%;
+    height:auto;
+    box-align: center;
+    margin:10px;
+}
+#left {
+    float:right;
+}
+.card-title{
+    font-weight:bold;
+    color:#0D2037;
+    font-size: 20px;
+    text-align: center;
+}
+.card-text {
+    font-weight:lighter;
+    color:#0D2037;
+    font-size: 15px;
+}
+ul{
+    list-style: none;
+}
+.game{
+    text-align: left;
+}
+#message {
+    text-align: center;
+    font-size: 25px;
+}
+
+.list-group {
+    background-color: #EAECEE;
+}
+.list-group-item{
+    background-color: #EAECEE;
+
+}
