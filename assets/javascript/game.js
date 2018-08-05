@@ -23,7 +23,7 @@ function refreshLives() {
     document.querySelector('#lives').innerHTML = "Lives: " + lives;
 };
 
-var playAgain = function () {
+function playAgain() {
     lives = 9;
     guessedLetters = [];
     chooseGoalLetter();
